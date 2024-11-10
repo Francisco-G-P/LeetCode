@@ -4,7 +4,7 @@ class Solution(object):
         :type nums: List[int]
         :rtype: List[List[int]]
         """
-        result  = []
+        result = []
 
         # Base case.
         if len(nums) == 1:
