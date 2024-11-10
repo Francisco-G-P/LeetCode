@@ -10,7 +10,7 @@ class Solution(object):
         if len(nums) == 1:
             return [nums[:]]
             
-        # For as the length of the original list the first item will be popped and permutations will be made with the remainig items.
+        # For as the length of the original list the first item will be popped and permutations will be made with the remaining items.
         for _ in range(len(nums)):
             n = nums.pop(0)
             perms = self.permute(nums)
